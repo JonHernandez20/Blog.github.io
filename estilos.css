@@ -1,0 +1,12 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 'Arial';
+    box-sizing: border-box;
+}
+
+.principal {
+    width: 100%;
+    border: 1px solid rgb(94, 5, 39);
+    padding: 12px;
+}
