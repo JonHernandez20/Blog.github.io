@@ -12,7 +12,25 @@ body {
 
 .principal {
     width: 100%;
-    border: 1px solid rgb(94, 5, 39);
+    border: 1px solid rgb(75, 75, 75);
     padding: 12px;
-    color: rgb(118, 118, 118);
+    color: rgb(0, 0, 0);
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.images div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 20px 0;
 }
