@@ -34,3 +34,18 @@ body {
     color: #ffffff;
     border-radius: 20px 0;
 }
+
+/* CABECERA */
+
+header {
+    width: 100%;
+    margin: 16px  auto;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.nombre {
+    font-size: 16px;
+}
