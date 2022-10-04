@@ -64,8 +64,40 @@ header {
     font-size: 16px;
 }
 
-/* Footer */
+/* Carta Sitio Web */
+.img__description {
+    height: 350px;
+    width: 100%;
+    margin: 12px auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(img/imagen1.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
 
+.img__description p {
+    margin: 12px 0;
+}
+
+.img__description a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.img__description a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/* Footer */
 .contacto {
     width: 100%;
     height: 48px;
@@ -85,8 +117,8 @@ header {
 
 .contacto .lineaUno, .lineaDos {
     width: 50%;
-    height: 0.1px;
-    border: 1px solid #000000;
+    height: 1px;
+    background-color: #000000;
 }
 
 .link a {
