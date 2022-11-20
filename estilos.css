@@ -91,15 +91,6 @@ header {
     background-image: url(img/windows.png);
 }
 
-.box__images {
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(1px);
-}
-
-.box__images p {
-    font-size: 30px;
-    color: #251e26;;
-}
 
 /* CABECERA */
 
