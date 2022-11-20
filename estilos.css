@@ -40,6 +40,7 @@ header {
     color: #fff;
 }
 
+/* One article */
 .principal {
     width: 100%;
     margin: 20px 0;
@@ -47,23 +48,57 @@ header {
     text-align: center;
 }
 
+.sistemas__operativos {
+    margin: 12px 0;
+}
 .images {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0;
-    font-weight: bold;
+    margin-top: 12px;
 }
 
 .images div {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
-    width: 150px;
-    background-color: blue;
-    color: #ffffff;
+    height: 200px;
+    width: 200px;
     border-radius: 20px 0;
+}
+
+.ubuntu,.mac,.osx,.linux,.windows {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.ubuntu {
+    background-image: url(img/ubuntu.png);
+}
+
+.mac {
+    background-image: url(img/mac.png);
+    background-size: 280px;
+}
+.osx {
+    background-image: url(img/osx.svg);
+}
+.linux {
+    background-image: url(img/linux.jpg);
+}
+.windows {
+    background-image: url(img/windows.png);
+}
+
+.box__images {
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(1px);
+}
+
+.box__images p {
+    font-size: 30px;
+    color: #251e26;;
 }
 
 /* CABECERA */
