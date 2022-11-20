@@ -42,9 +42,9 @@ header {
 
 .principal {
     width: 100%;
-    border: 1px solid rgb(75, 75, 75);
-    padding: 12px;
+    margin: 20px 0;
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .images {
@@ -52,6 +52,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin: 20px 0;
+    font-weight: bold;
 }
 
 .images div {
@@ -79,7 +80,7 @@ header {
 .img__description {
     height: 550px;
     width: 100%;
-    margin: 12px auto;
+    margin: 20px auto;
     padding: 8px;
     display: flex;
     flex-direction: column;
