@@ -106,6 +106,7 @@ header {
     width: 100%;
     margin-top: 8px;
     align-items: center;
+    flex-direction: column;
 }
 
 .hardware__name, .software__name {
@@ -134,8 +135,16 @@ header {
     list-style: none;
 }
 
+.soft {
+    font-weight: 500;
+}
+
 .list__software li:first-child {
     margin-top: 0;
+}
+
+.list__software {
+    margin-left: 12px;
 }
 
 .list__software > li{
@@ -144,6 +153,12 @@ header {
 
 .list__hardware > li {
     margin: 8px 0;
+    width: 20%;
+}
+
+.list__hardware {
+    display: flex;
+    justify-content: space-around;
 }
 
 .list__perifericos {
