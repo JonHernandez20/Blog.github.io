@@ -158,6 +158,55 @@ header {
 .list__software > li:last-child {
     margin-bottom: 0;
 }
+
+/* LENGUAJES DE PROGRAMACION */
+.lenguajes__programacion {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.lenguajes__programacion h2 {
+    text-align: center;
+}
+
+.information__area {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.areas__programacion {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.information__area img {
+    width: 150px;
+    height: 150px;
+}
+
+.information__area h3 {
+    text-align: center;
+}
+
+.areas__programacion > div h4 {
+    text-align: center;
+}
+
+.areas__programacion > div > div:first-child {
+    margin: 12px 0;
+}
+
+.areas__programacion > div > div:last-child {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.areas__programacion > div > div:last-child abbr {
+    margin: 8px 0;
+}
 /* CABECERA */
 
 .titulo {
