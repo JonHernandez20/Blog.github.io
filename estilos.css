@@ -91,7 +91,73 @@ header {
     background-image: url(img/windows.png);
 }
 
+.information__PC {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    text-align: left;
+}
 
+.information__PC h2 {
+    text-align: center;
+}
+.hardware, .software{
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+    align-items: center;
+}
+
+.hardware__name, .software__name {
+    width: 350px;
+    height: 100%;
+    text-align: center;
+}
+
+.software__information div {
+    margin: 8px;
+}
+
+.information__one p:first-child {
+    font-family: italic;
+}
+
+.information__two p:first-child {
+    font-family: italic;
+}
+
+.hardware__information div {
+    margin: 8px 0;
+}
+
+.list__hardware, .list__software {
+    list-style: none;
+}
+
+.list__software li:first-child {
+    margin-top: 0;
+}
+
+.list__software > li{
+    margin: 8px 0;
+}
+
+.list__hardware > li {
+    margin: 8px 0;
+}
+
+.list__perifericos {
+    margin-left: 40px;
+    list-style: square inside;
+}
+
+.list__hardware > li:last-child {
+    margin-bottom: 0;
+}
+
+.list__software > li:last-child {
+    margin-bottom: 0;
+}
 /* CABECERA */
 
 .titulo {
