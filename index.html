@@ -16,15 +16,23 @@
 
 </head>
 <body>
-    <header>
+    <header class="container__header" id="home" style="color:aliceblue">
         <div class="header__tittle">
-            <h1 class="titulo">Blogpost</h1>
-            <p class="title__blog">Computing</p>
+            <h1 class="titulo"><a href="#home">Blogpost</a></h1>
+            <p class="title__blog" id="technology">Technology</p>
+        </div>
+        <div class="header__list">
+            <ul class="list__directions">
+                <li><a href="#sistemas" class="items__header">Sistemas Operativos</a></li>
+                <li><a href="#conceptos" class="items__header">Conceptos</a></li>
+                <li><a href="#lenguajes" class="items__header">Lenguajes de programacón</a></li>
+                <li><a href="#about" class="items__header">Acerca de mi</a></li>
+            </ul>
         </div>
     </header>
     <main>
         <article class="principal">
-            <h2 class="tittle__sistemas">Sistemas operativos</h2>
+            <h2 class="tittle__sistemas" id="sistemas">Sistemas operativos</h2>
             <p class="sistemas__operativos">
                 Un sistema operativo es un conjunto de programas que permite manejar la memoria, disco, medios de almacenamiento y los diferentes perifericos o recursos de nuestra computadora como son el teclado, el mouse, la impresora, la placa de red, entre otros. Los perifericos utilizan un driver o controlador y son desarrollados por los fabricantes de cada equipo. Encontramos diferentes sistemas operativos como Windows, Linux, Mac OS, en sus diferentes versiones. Tambien los telefonos y tablets posen un sistema operativo. Dentro de las tareas que realiza el sistema operativo, en particular, se ocupa de gestionar la memoria de nuestro sistema y la carga de los diferentes programas, para ello cada programa tiene una prioridad o jerarquia y en funcion de la misma contara con los recursos de nuestro sistema por mas tiempo que un programa de menor prioridad.
             </p>
@@ -38,7 +46,7 @@
             </div>
         </article>
 
-        <article class="information__PC">
+        <article class="information__PC" id="conceptos">
             <h2>Conceptos basicos</h2>
            <div class="software">
                 <div class="software__name">
@@ -134,7 +142,7 @@
             <a href="#0" class="descripcion__link">Ir al sitio web</a>
         </section>
 
-        <article class="lenguajes__programacion">
+        <article class="lenguajes__programacion" id="lenguajes">
             <h2>Lenguajes de Programacion</h2>
             <div class="information__lenguajes">
                 <p>¿Que son los lenguajes de programacion?</p>
@@ -190,7 +198,7 @@
             </div>
         </article>
     </main>
-    <footer>
+    <footer id="about">
         <div class="contacto">
             <div class="lineaUno"></div>
             <div class="link">
@@ -222,5 +230,6 @@
             <p>CDMX, México</p>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
