@@ -357,3 +357,20 @@ main {
     color: #ffffff;
     padding: 4px;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width:768px) {
+    /* HEADER */
+    /* --- header tittle --- */
+    .header__tittle {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 12px;
+    }
+    .header__list {
+        display: none;
+    }
+}
