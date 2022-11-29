@@ -420,4 +420,29 @@ main {
         width: 100px;
         height: 100px;
     }
+
+    /* FOOTER */
+    /* --- contacto --- */
+    .lineaDos, .lineaUno {
+        display: none;
+    }
+
+    .link {
+        width: 100%;
+        justify-content: space-between;
+        height: auto;
+        padding: 12px;
+    }
+
+    .contacto {
+        height: 100%;
+    }
+
+    .contacto .link {
+        width: 100%;
+    }
+
+    .link a{
+        font-size: 50px;
+    }
 }
