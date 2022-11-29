@@ -373,4 +373,51 @@ main {
     .header__list {
         display: none;
     }
+
+    /* MAIN */
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 170px;
+    }
+    /* --- sistemas --- */
+    .images {
+        flex-wrap: wrap;
+    }
+
+    .images div {
+        width: 150px;
+        height: 150px;
+    }
+
+    .windows {
+        margin: 0 auto;
+    }
+
+    /* --- hardware and software --- */
+
+    .list__hardware > li {
+        width: 100%;
+    }
+
+    .list__hardware {
+        flex-direction: column;
+    }
+
+    .areas__programacion {
+        display: block;
+    }
+
+    /* LENGUAJES DE PROGRAMACION */
+    /* --- images --- */
+
+    .areas__programacion > div > div:last-child {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .information__area img{
+        width: 100px;
+        height: 100px;
+    }
 }
